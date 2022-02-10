@@ -1,8 +1,20 @@
 import React from "react";
-import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+// import Product from "./pages/Product";
+// import Register from "./pages/Register";
+// import Home from "./pages/Home";
+// import ProductList from "./pages/ProductList";
 
 function App() {
-  return <Home />;
+  return (
+    <div>
+      {/* <Home /> */}
+      {/* <ProductList />; */}
+      {/* <Product />; */}
+      {/* <Register /> */}
+      <Cart />
+    </div>
+  );
 }
 
 export default App;
